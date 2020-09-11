@@ -18,6 +18,9 @@ dist: xenial
 # Order here matters; see compiler comment above.
 os:
   - linux
+    arch:
+      - ppc64le
+      - amd64
   - osx
 
 script: ./travis/main.sh
